@@ -1374,6 +1374,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4791868818274200, guid: 32c02bdf28949914496a66c469177c94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4791868818274200, guid: 32c02bdf28949914496a66c469177c94, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.94
+      objectReference: {fileID: 0}
     - target: {fileID: 114814076797067178, guid: 32c02bdf28949914496a66c469177c94,
         type: 3}
       propertyPath: velocity
@@ -1419,6 +1427,16 @@ PrefabInstance:
     - target: {fileID: 4729635291142546, guid: 17fc189f8be2091439f38bb73b0deced, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50455582343422118, guid: 17fc189f8be2091439f38bb73b0deced,
+        type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114080443503978288, guid: 17fc189f8be2091439f38bb73b0deced,
+        type: 3}
+      propertyPath: GoingRight
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17fc189f8be2091439f38bb73b0deced, type: 3}

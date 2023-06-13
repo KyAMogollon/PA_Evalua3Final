@@ -3997,7 +3997,7 @@ PrefabInstance:
     - target: {fileID: 114299292494040606, guid: e6de3dbe7d793b84786ae6d723a43d9e,
         type: 3}
       propertyPath: LevelToLoad
-      value: Levell6
+      value: Level6
       objectReference: {fileID: 0}
     - target: {fileID: 224200078104204492, guid: e6de3dbe7d793b84786ae6d723a43d9e,
         type: 3}
@@ -7360,6 +7360,10 @@ PrefabInstance:
     - target: {fileID: 4101898730970806, guid: 32c02bdf28949914496a66c469177c94, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4791868818274200, guid: 32c02bdf28949914496a66c469177c94, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.49
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32c02bdf28949914496a66c469177c94, type: 3}

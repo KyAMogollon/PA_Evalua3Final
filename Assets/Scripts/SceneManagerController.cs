@@ -42,7 +42,6 @@ public class SceneManagerController : MonoBehaviour
         scenNameToLoad = newSceneName;
         onFade = CallLoadScene;
         onLoadScene = CallFadeOut;
-
         CallFadeIn();
     }
 
@@ -56,8 +55,21 @@ public class SceneManagerController : MonoBehaviour
 
     private void CallLoadScene(){
         StartCoroutine(LoadSceneCoroutine(scenNameToLoad));
-    }
+    }   
 
+    private IEnumerator LoadSceneCoroutine(string sceneName){
+        yield return new WaitForSeconds(fadeInTime);
+
+        AsyncOperation asyncLoadLevel = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
+
+        while (!asyncLoadLevel.isDone){
+            Debug.Log("Loading the Scene"); 
+            yield return null;
+        }
+
+        onLoadScene?.Invoke();
+    } 
+    
     private IEnumerator FadeCoroutine(float targetTime, Color targetColor){
         float totalTime = 0f;
         while (totalTime < targetTime)
@@ -71,18 +83,5 @@ public class SceneManagerController : MonoBehaviour
         }
         
         onFade?.Invoke();
-    }
-
-    private IEnumerator LoadSceneCoroutine(string sceneName){
-        yield return new WaitForSeconds(fadeInTime);
-
-        AsyncOperation asyncLoadLevel = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
-
-        while (!asyncLoadLevel.isDone){
-            Debug.Log("Loading the Scene"); 
-            yield return null;
-        }
-
-        onLoadScene?.Invoke();
     }
 }

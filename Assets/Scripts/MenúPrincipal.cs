@@ -43,8 +43,9 @@ public class MenúPrincipal : MonoBehaviour {
         FoleyPlayer.Play();
         SceneManagerController.Instance.LoadScene("Level4"); 
         }
-    public void Load5() { FoleyPlayer.Play();
-    SceneManagerController.Instance.LoadScene("Level5");
+    public void Load5() { 
+        FoleyPlayer.Play();
+        SceneManagerController.Instance.LoadScene("Level5");
     }
     public void Load6() { 
         FoleyPlayer.Play();
@@ -53,8 +54,8 @@ public class MenúPrincipal : MonoBehaviour {
 
     public void Jugar()
     {
-        //FoleyPlayer.Play();
-        print("Hola");
+        FoleyPlayer.Play();
+        //print("Hola");
         Niveles.SetActive(true);
     }
 

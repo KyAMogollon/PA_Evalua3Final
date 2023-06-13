@@ -454,6 +454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombiPirata (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1701568749996636, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4978671166464334, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -831,6 +835,11 @@ PrefabInstance:
     - target: {fileID: 114522399989267828, guid: f44e292d5b7bd5a42ab9f75f140628fc,
         type: 3}
       propertyPath: GoingRight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212041724402108470, guid: f44e292d5b7bd5a42ab9f75f140628fc,
+        type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1523,6 +1532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombiPirata (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1701568749996636, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4978671166464334, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1961,6 +1974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CombiPirata (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1701568749996636, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4978671166464334, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -2338,6 +2355,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1701568749996636, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4978671166464334, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2488,6 +2509,10 @@ PrefabInstance:
     - target: {fileID: 1701568749996636, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
       propertyPath: m_Name
       value: CombiPirata (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701568749996636, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4978671166464334, guid: b9246b87f76d5d34c9e43861e9bc58ef, type: 3}
       propertyPath: m_RootOrder
